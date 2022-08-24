@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
+
+# Database
+*.db
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Dist
+dist/
