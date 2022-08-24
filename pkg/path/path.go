@@ -1,6 +1,9 @@
 package path
 
-import "os"
+import (
+	// import built-in packages
+	"os"
+)
 
 func PathExists(path string) bool {
 	_, err := os.Stat(path)
